@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/glytrack
     username: glytrack
-    password: glytrack_dev_password
+    password: 12345
     driver-class-name: org.postgresql.Driver
 
   jpa:

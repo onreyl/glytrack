@@ -47,7 +47,6 @@ public class Entry {
         return day.belongsTo(u);
     }
 
-    // Hesaplama delegasyonu — source ne tür ise ona sorar
     public double carbs() {
         return source.carbs();
     }

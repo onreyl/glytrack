@@ -32,7 +32,6 @@ public class Meal {
         return type;
     }
 
-    // Ownership delegation — Day zaten biliyor, tekrar yazmıyoruz
     public boolean belongsTo(User u) {
         return day.belongsTo(u);
     }
